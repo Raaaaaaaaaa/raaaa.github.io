@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#video-container {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: auto;
+}
+
+.videoWrapper{
+    position:relative;
+}
+
+.videoWrapper iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+}
+
+/* setting the video containers position and size/*
+
+/* #video1{
+    width: 100%;
+    height: auto;
+    position:absolute;
+
+}
+
+#video2{
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 5%;
+} */
+
+/*.button{
+    width: auto;
+    height:auto;
+    position:absolute;
+z-index: 10;
+}
